@@ -1,0 +1,98 @@
+.teams-header{
+    padding: 5px 25px;
+}
+
+.teams-list{
+    padding:0 25px;
+}
+
+.Team_createbtn, .Team_addbtn {
+    font-size: 15px;
+    color: white;
+
+}
+
+.Team_addbtn{
+    background-color: #E47041;
+}
+
+.Team_createbtn{
+    background-color: #009179;
+    margin-left: 1rem;
+}
+
+.teams-table{
+    width:100%;
+    border-collapse: separate;
+    text-align: left;
+    border-spacing: 0;
+}
+
+.team td{
+    margin:0;
+    border-top:1px solid rgb(60, 60, 60);
+    border-bottom:1px solid rgb(60, 60, 60);
+}
+
+.team td:first-child{
+    border-left:1px solid rgb(60, 60, 60);
+}
+
+.team td:last-child{
+    border-right:1px solid rgb(60, 60, 60);
+}
+
+.team:first-child > td:first-child{
+    border-top-left-radius: 15px;
+}
+.team:first-child > td:last-child{
+    border-top-right-radius: 15px;
+}
+.team:last-child > td:first-child{
+    border-bottom-left-radius: 15px;
+}
+.team:last-child > td:last-child{
+    border-bottom-right-radius: 15px;
+}
+
+.edit-btn{
+    background-size:30px;
+    background-color: transparent;
+    background-image: url(../../Images/NewEdit.png);
+    color: blue;
+    margin-top: 1rem;
+}
+.delete-btn{
+    background-size:20px;
+    background-color: transparent;
+    background-image: url(../../Images/Delete2.png);
+    color: red;
+    margin:0 10px;
+}
+
+.edit-btn, .delete-btn{
+    padding-left: 1.5rem;
+    font-size: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    
+    background-position-x:15px;
+    background-position-y: 50%;
+    width:12ch;
+}
+
+
+
+
+
+.team-buttons{
+    text-align:right
+}
+
+.team-image{
+    width:100px;
+    padding:10px;
+    margin-left:50px
+}

@@ -1,0 +1,158 @@
+.Team-Create-Container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+
+.Add-image-container{
+    border: 2px solid;
+    padding: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.image-input{
+    width:125px;
+}
+
+.image-btn{
+    background-size:60px;
+    background-color: transparent;
+    background-image: url(../../Images/plus-icon-black-2.png);
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+
+.team-info{
+    display: flex;
+    margin-left: 20rem;
+}
+
+
+
+.team-info-input-cont{
+    flex-grow: 1;
+    padding-left: 2rem;
+   
+}
+
+.team-name{
+    width: 50%;
+    display: block;
+    box-shadow: cadetblue;
+    border-radius: 15px;
+    height: 50px;
+    margin-bottom: 2rem;
+}
+
+
+    
+.page-title{
+    font-size: 50px;
+    font-family: var(--font-family);
+    color: white;
+
+}
+.team.info{
+    display: row;
+}
+
+.labels{
+    display: flex;
+    color: black;
+    background-position-y: top;
+    margin-top: -1.2rem;
+}
+
+.player-container{
+    border:1px solid rgb(60, 60, 60);
+    border-radius: 00.5ch;
+    margin: 2rem;
+    margin-left: 8rem;
+    padding-bottom: 1rem;
+    width: 1250px;
+}
+
+.createT-btn{
+    background-color: #009179;
+    color: white;
+    align-items: center;
+}
+
+.registered{
+    border: solid;
+    border-color: black;
+    height: fit-content;
+    margin-left: 15rem;
+}
+
+.row:first-child{
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.cell{
+    padding:1rem;
+    border:1px solid black;
+}
+
+.player{
+    display: flex;
+}
+
+.player-info{
+    display: grid;
+    align-items:flex-start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 0.5ch;
+    margin-left: 5rem;
+
+}
+.Add-player-title{
+    color: black;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(60, 60, 60);
+    margin-top: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+
+}
+
+
+
+.input-player{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.done-player{
+    align-self: center;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.delete-container2{
+    width: 2rem;
+}
+.delete-btn2{
+    background-size:20px;
+    background-color: transparent;
+    background-image: url(../../Images/Delete2.png);
+    color: red;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    width: fit-content;
+    height: 2rem;
+
+}

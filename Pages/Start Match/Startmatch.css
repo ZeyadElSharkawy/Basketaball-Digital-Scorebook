@@ -1,0 +1,170 @@
+.page-title{
+    color: black;
+}
+
+.main-backdrop{
+    background-image: url('/src/Images/BackgroundL.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100vmax;
+    
+}
+
+
+.countdown{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.team1-logo, .team2-logo{
+    width: 200px;
+}
+
+.team1{
+    margin-right: 10rem;
+}
+
+.team2{
+    margin-left: 10rem;
+}
+.team2-score{
+    margin-left: 7rem;
+}
+
+.score{
+    font-size: 30px;
+}
+.team1-score{
+    margin-right: 7rem;
+}
+
+.teams-countdown-container{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.subs-team1{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    justify-content: left;
+    width: fit-content;
+    border-collapse: collapse;
+    padding-left: 1rem;
+    padding-right: 2rem;
+
+}
+
+
+.stats-container{
+    width: 700px;
+ 
+    align-items: center;
+}
+
+.shirtno{
+    margin-left: 3rem;
+    justify-content: right;
+
+
+}
+
+.subs-lineup-container{
+    display: flex;
+    width: fit-content;
+    margin-left: 12rem;
+
+
+}
+
+.subs-lineup-container2{
+    width: 200px;
+    margin-left: 3rem;
+}
+
+
+.stats-board{
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 50%;
+    justify-items: center;
+    padding: 1rem;
+    margin-left: 12rem;
+}
+
+.points{
+    margin-right: 2rem;
+}
+.assist{
+    margin-bottom:2rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+.Block{
+    margin-top:2rem;
+    margin-left: 1.2rem;
+}
+.Rebound{
+    margin-left:2rem;
+    margin-right: 6.5rem;
+}
+
+
+.players-stats{
+    display: flex;
+    width: fit-content;
+}
+
+.player-team1{
+    width: fit-content;
+}
+
+
+.player-team2{
+    width: fit-content;
+}
+
+.subs-team2{
+    width: fit-content;
+}
+
+
+.add1, .add2, .add3{
+    background-color: #E47041;
+    width: fit-content;
+    border-radius: circle;
+    color: white;
+    margin: 1rem;
+    height: fit-content;
+    margin-top: 1.5rem;
+}
+
+.points-teams{
+    display: flex;
+}
+
+
+
